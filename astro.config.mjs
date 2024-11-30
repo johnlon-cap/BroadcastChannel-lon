@@ -6,6 +6,8 @@ import netlify from '@astrojs/netlify'
 import node from '@astrojs/node'
 import { provider } from 'std-env'
 import sentry from '@sentry/astro'
+import rss from '@astrojs/rss';
+
 
 const providers = {
   vercel: vercel({
